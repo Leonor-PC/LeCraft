@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+    <comment>Deutsch (de_DE) locale file</comment>
+	
+    <entry key="item.Bitum.name">Bitum</entry>
+	
+	
+	<entry key="tile.Asphalt.name">Asphalt</entry>
+	<entry key="tile.AsphaltQuer.name">Asphalt Quer</entry>
+
+</properties>

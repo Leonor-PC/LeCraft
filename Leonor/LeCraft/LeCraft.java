@@ -61,8 +61,9 @@ public class LeCraft {
 		
 		private static void craftingRecipes() {
 	//Shapless
-			GameRegistry.addShapelessRecipe(new ItemStack(Item.ingotGold, 2), new ItemStack(Block.blockClay, 2));
-			
+			GameRegistry.addShapelessRecipe(new ItemStack(BlocksHelper.Asphalt, 2), new ItemStack(ItemsHelper.Bitum, 2), new ItemStack(Block.sand), new ItemStack(Block.gravel));
+			GameRegistry.addShapelessRecipe(new ItemStack(BlocksHelper.AsphaltQuer), new ItemStack(BlocksHelper.Asphalt));
+
 			
 	//Shaped
 			GameRegistry.addRecipe(new ItemStack(Block.blockClay), "#U#",
