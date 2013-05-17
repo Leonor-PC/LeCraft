@@ -4,9 +4,16 @@
     <comment>Deutsch (de_DE) locale file</comment>
 	
     <entry key="item.Bitum.name">Bitum</entry>
-	
+	<entry key="item.PatroneGelb.name">Gelbe Tintenpatrone</entry>
+	<entry key="item.PatroneRot.name">Rote Tintenpatrone</entry>
+	<entry key="item.PatroneBlau.name">Blau Tintenpatrone</entry>
+	<entry key="item.PatroneLeer.name">Leere Tintenpatrone</entry>
 	
 	<entry key="tile.Asphalt.name">Asphalt</entry>
 	<entry key="tile.AsphaltQuer.name">Asphalt Quer</entry>
+	<entry key="tile.Tapete1.name">Tapete schwarz mit Krone</entry>
+	<entry key="tile.Tapete.name">Tapete mit Krone</entry>
+	<entry key="tile.Pappe.name">Pappe</entry>
+
 
 </properties>

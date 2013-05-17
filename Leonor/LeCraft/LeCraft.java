@@ -19,7 +19,7 @@ import Leonor.LeCraft.Proxies.LeonorCommonProxy;
 
 
 
-@Mod(modid = Reference.modid, name = "LeCraft", version = Reference.Version)
+@Mod(modid = Reference.modid, name = Reference.modName, version = Reference.Version)
 @NetworkMod(clientSideRequired = true, serverSideRequired = false)
 public class LeCraft {
 
@@ -63,13 +63,19 @@ public class LeCraft {
 	//Shapless
 			GameRegistry.addShapelessRecipe(new ItemStack(BlocksHelper.Asphalt, 2), new ItemStack(ItemsHelper.Bitum, 2), new ItemStack(Block.sand), new ItemStack(Block.gravel));
 			GameRegistry.addShapelessRecipe(new ItemStack(BlocksHelper.AsphaltQuer), new ItemStack(BlocksHelper.Asphalt));
+			GameRegistry.addShapelessRecipe(new ItemStack(BlocksHelper.Tapete1), new ItemStack(ItemsHelper.PatroneBlau), new ItemStack(ItemsHelper.PatroneGelb), new ItemStack(ItemsHelper.PatroneRot), new ItemStack(BlocksHelper.Tapete));
+
 
 			
 	//Shaped
-			GameRegistry.addRecipe(new ItemStack(Block.blockClay), "#U#",
-																   "U#U",
-																   "#U#",
-						'#', Block.sand, 'U', Block.gravel);
+			GameRegistry.addRecipe(new ItemStack(BlocksHelper.Tapete, 4),  "###",
+																   		"###",
+																   		"###",
+						'#', Item.paper);
+			GameRegistry.addRecipe(new ItemStack(BlocksHelper.Pappe, 4),  "###",
+			   																"###",
+			   																"UUU",
+			   					'#', Item.paper);
 		}
 		
 		

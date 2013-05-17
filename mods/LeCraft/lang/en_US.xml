@@ -4,9 +4,16 @@
     <comment>English (en_US) locale file</comment>
 	
     <entry key="item.Bitum.name">Bitum</entry>
-	
+	<entry key="item.PatroneLeer.name">Emty Cartridge</entry>
+	<entry key="item.PatroneRot.name">Red Cartridge</entry>
+	<entry key="item.PatroneGelb.name">Yellow Cartridge</entry>
+	<entry key="item.PatroneBlau.name">Blue Cartridge</entry>	
 	
 	<entry key="tile.Asphalt.name">Asphalt</entry>
 	<entry key="tile.AsphaltQuer.name">Asphalt Cross</entry>
+	<entry key="tile.Tapete1.name">Wallpaper Black with crown</entry>
+	<entry key="tile.Tapete.name">Wallpaper with crown</entry>
+	<entry key="tile.Pappe.name">Cardboard</entry>
+
 
 </properties>
